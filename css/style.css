@@ -161,7 +161,7 @@ a {
     padding: 10px;
     background-color: #E5E7EB;
     color: #1F2937;
-    font-weight: lighter;
+    font-weight: 500;
     font-style: italic;
     font-size: 36px;
 }
@@ -214,6 +214,7 @@ a {
 
 .cta-container a {
     outline: 5px solid white;
+    box-shadow: 5px 10px 20px #1F2937;
     font-size: larger;
     font-weight: bold;
     margin: 10px;
