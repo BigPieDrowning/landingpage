@@ -161,6 +161,7 @@ a {
     padding: 10px;
     background-color: #E5E7EB;
     color: #1F2937;
+    font-weight: lighter;
     font-style: italic;
     font-size: 36px;
 }
@@ -168,4 +169,68 @@ a {
 
 .name {
     font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 20px;
+}
+
+.cta .cta-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #38d0f6;
+    /* outline: 1px solid red; */
+    height: 300px;
+    width: 950px;
+    line-height: 30px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 10px #1F2937;
+}
+
+.cta-container .ctaa {
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 100%;
+    background-color: #38d0f6;
+}
+
+.cta-container .cta-cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    color: #1F2937;
+    padding: 10px;
+    background-color: #38d0f6;
+    border-radius: 5px;
+    border-radius: 30px;
+}
+
+.cta-container a {
+    outline: 5px solid white;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.ctaa .cta-cont {
+    font-size: x-large;
+}
+
+.ctaa p {
+    font-weight: 500;
+}
+
+footer { 
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center center;
+    /* text-align: center; */
+    min-height: 100px;
 }
