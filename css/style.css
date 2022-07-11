@@ -139,6 +139,6 @@ a {
     border-style: solid;
     border-color: #1F2937;
     border-width: 10px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px #38d0f6;
     margin-bottom: 15px;
 }
