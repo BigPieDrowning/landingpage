@@ -233,5 +233,5 @@ footer {
     flex-wrap: wrap;
     place-content: center center;
     /* text-align: center; */
-    min-height: 100px;
+    min-height: 50px;
 }
